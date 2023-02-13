@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+}
+
+html {
+    font-size: 3.6px;
+    font-family: SUIT;
+}
+
+input,
+button {
+    font-family: SUIT;
+}
