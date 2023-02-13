@@ -8,7 +8,7 @@ export type Doc<T> = T & { id: string }
 
 const fetchProduct = () => {
     let product: Doc<ProductType> | undefined | null = undefined
-    const promise = fetch('https://get-product.incart.me' + location.pathname)
+    const promise = fetch(import.meta.env + location.pathname)
         .then((res) => res.json())
         .then((res) => (product = res))
         .catch((err) => {
