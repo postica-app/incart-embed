@@ -1175,7 +1175,7 @@ __metadata:
     "@types/react": "npm:^18.0.26"
     "@types/react-dom": "npm:^18.0.9"
     "@vitejs/plugin-react": "npm:^3.0.0"
-    incart-fe-common: "https://github.com/ryconics/incart-fe-common"
+    incart-fe-common: "github:postica-app/incart-fe-common"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     typescript: "npm:^4.9.3"
@@ -1183,9 +1183,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"incart-fe-common@https://github.com/ryconics/incart-fe-common":
+"incart-fe-common@github:postica-app/incart-fe-common":
   version: 0.0.0
-  resolution: "incart-fe-common@https://github.com/ryconics/incart-fe-common.git#commit=eb72772f1fc796a41b5b1cce1c4ac238b7b20a65"
+  resolution: "incart-fe-common@https://github.com/postica-app/incart-fe-common.git#commit=6b3997cea5f6db4616f657e1f5a57e5b60e2dafc"
   dependencies:
     "@haechi/flexile": "npm:^1.4.7"
     "@stitches/react": "npm:^1.2.8"
@@ -1199,7 +1199,7 @@ __metadata:
     formik: ^2.2.9
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 057b95cd587288e57de5a63c00f2c4dce0153454896285dd448d82b9f3212d79bdaa42a83694d06486be019785c9089203e9b8e26c9082e06beaeef249e259e2
+  checksum: c8a1e279bbca3fe63209538a334e21d6be96355d9d9765511d023c0bfca5fe927f2f522cb622638df474c6875aee2144bcbed81d1be8e637e86eacb6c081814c
   languageName: node
   linkType: hard
 
