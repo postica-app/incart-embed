@@ -18,20 +18,11 @@ function checkIsValidUUID(source: string) {
 
 const fetchProduct = () => {
     let product: Doc<ProductType> | undefined | null = undefined
-    const promise = fetch(
-        import.meta.env.VITE_POSTGREST_URL +
-            'rest/v1/product?select=*&limit=1&id=eq.' +
-            location.pathname.slice(1),
-        {
-            headers: {
-                apikey: import.meta.env.VITE_POSTGREST_KEY,
-            },
-        }
-    )
+    const promise = fetch(import.meta.env.VITE_API_URL + location.pathname, {})
         .then((res) => res.json())
         .then((res) => {
-            if (res.length === 0) alert('상품을 찾을 수 없습니다')
-            product = res[0]
+            if (!res.id) alert('상품을 찾을 수 없습니다')
+            product = res
         })
         .catch((err) => {
             console.error(err)
